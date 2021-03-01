@@ -9,8 +9,14 @@ typedef struct {
 
 enum {
     LEPT_PARSE_OK = 0,
+    
+    /* 需要值 */
     LEPT_PARSE_EXPECT_VALUE,
+    
+    /* 无效值 */
     LEPT_PARSE_INVALID_VALUE,
+    
+    /*  */
     LEPT_PARSE_ROOT_NOT_SINGULAR
 };
 
