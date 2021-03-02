@@ -189,9 +189,9 @@ static int lept_parse_string(lept_context* c, lept_value* v) {
                 }
                 break;
            /* ... */
-       }
-   }
- }
+        }
+    }
+}
 ~~~
 
 ## 3. 不合法的字符串
