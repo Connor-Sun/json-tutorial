@@ -10,7 +10,6 @@ typedef struct {
 
 /* ws = *(%x20 / %x09 / %x0A / %x0D) */
 /* È¥³ýÇ°ÖÃ¿Õ¸ñ */
-
 static void lept_parse_whitespace(lept_context* c) {
     const char *p = c->json;
     while (*p == ' ' || *p == '\t' || *p == '\n' || *p == '\r')
@@ -71,7 +70,6 @@ int lept_parse(lept_value* v, const char* json) {
         if (*c.json != '\0')
             ret = LEPT_PARSE_ROOT_NOT_SINGULAR;
     }
-
     return ret;
 }
 

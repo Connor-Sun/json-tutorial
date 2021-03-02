@@ -125,7 +125,6 @@ static void test_parse_root_not_singular() {
     TEST_ERROR(LEPT_PARSE_ROOT_NOT_SINGULAR, "0.123ne+123");
     TEST_ERROR(LEPT_PARSE_ROOT_NOT_SINGULAR, "0.123e+123n");
     // TEST_ERROR(LEPT_PARSE_ROOT_NOT_SINGULAR, "0.123e+123");
-    
 #endif
 }
 

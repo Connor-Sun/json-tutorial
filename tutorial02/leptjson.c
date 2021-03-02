@@ -106,6 +106,7 @@ static int lept_parse_number(lept_context* c, lept_value* v) {
         while (ISDIGIT(*start))
             start++;
         // while (ISDIGIT(*(++start)));
+        // 为什么会有不一样
     }
 
     errno = 0;

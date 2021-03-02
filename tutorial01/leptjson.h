@@ -16,7 +16,7 @@ enum {
     /* 无效值 */
     LEPT_PARSE_INVALID_VALUE,
     
-    /*  */
+    /* 一个值后还有其它字符 */
     LEPT_PARSE_ROOT_NOT_SINGULAR
 };
 
