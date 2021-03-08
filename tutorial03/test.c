@@ -166,7 +166,6 @@ static void test_parse_missing_quotation_mark() {
 
 static void test_parse_invalid_string_escape() {
 #if 1 
-    /* ? 没懂下面为什么无效 */
     TEST_ERROR(LEPT_PARSE_INVALID_STRING_ESCAPE, "\"\\v\"");
     TEST_ERROR(LEPT_PARSE_INVALID_STRING_ESCAPE, "\"\\'\"");
     TEST_ERROR(LEPT_PARSE_INVALID_STRING_ESCAPE, "\"\\0\"");
@@ -176,8 +175,7 @@ static void test_parse_invalid_string_escape() {
 
 static void test_parse_invalid_string_char() {
 #if 1 
-    /* ? 这个也没懂 */
-    /* %x00 至 %x1F 不合法 但上面的还是没懂 */
+    /* 娌℃湁/x */
     TEST_ERROR(LEPT_PARSE_INVALID_STRING_CHAR, "\"\x01\"");
     TEST_ERROR(LEPT_PARSE_INVALID_STRING_CHAR, "\"\x1F\"");
 #endif

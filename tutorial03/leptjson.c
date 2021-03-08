@@ -179,7 +179,7 @@ int lept_get_boolean(const lept_value* v) {
 
 void lept_set_boolean(lept_value* v, int b) {
     /* \TODO */
-    lept_free(v); /* free°üº¬assert(v != NULL) */
+    lept_free(v); /* freeï¿½ï¿½ï¿½ï¿½assert(v != NULL) */
     v->type = b ? LEPT_TRUE : LEPT_FALSE;
 }
 
